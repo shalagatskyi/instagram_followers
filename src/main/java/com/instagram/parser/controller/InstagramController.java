@@ -28,7 +28,7 @@ public class InstagramController {
         try {
             loginServiceProvider.login(myLogin, myPassword);
             Collection<String> users = service.getSubscribers(userToFindLogin);
-            sb.append("Total count of users: ").append(users.size()).append("<br>");
+            sb.append("Total count of fetched users: ").append(users.size()).append("<br>");
             users.forEach(newFollower -> sb.append(newFollower).append("<br>"));
         } catch (IOException e ) {
             return "Something went wrong, however there is some data <br>" + sb.toString();
