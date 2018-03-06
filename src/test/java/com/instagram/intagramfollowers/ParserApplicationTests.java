@@ -1,4 +1,4 @@
-package com.instagram.parser;
+package com.instagram.intagramfollowers;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

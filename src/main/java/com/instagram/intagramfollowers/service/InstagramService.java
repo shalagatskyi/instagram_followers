@@ -1,4 +1,4 @@
-package com.instagram.parser.service;
+package com.instagram.intagramfollowers.service;
 
 import java.io.IOException;
 import java.util.Collection;

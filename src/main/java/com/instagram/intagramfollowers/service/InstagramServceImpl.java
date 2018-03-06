@@ -1,4 +1,4 @@
-package com.instagram.parser.service;
+package com.instagram.intagramfollowers.service;
 
 import org.brunocvcunha.instagram4j.Instagram4j;
 import org.brunocvcunha.instagram4j.requests.InstagramGetUserFollowersRequest;

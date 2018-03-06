@@ -1,7 +1,7 @@
-package com.instagram.parser.controller;
+package com.instagram.intagramfollowers.controller;
 
-import com.instagram.parser.service.InstagramService;
-import com.instagram.parser.service.LoginServiceProvider;
+import com.instagram.intagramfollowers.service.InstagramService;
+import com.instagram.intagramfollowers.service.LoginServiceProvider;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
